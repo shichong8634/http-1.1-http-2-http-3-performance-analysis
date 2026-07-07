@@ -15,44 +15,44 @@ To evaluate the performance of HTTP/1.1, HTTP/2, and HTTP/3 across different geo
 ----
 
 ## Research questions
-1.What is the performance of HTTP/1.1, HTTP/2, and HTTP/3?
+1. What is the performance of HTTP/1.1, HTTP/2, and HTTP/3?
 
-2.Does geographic location significantly affect web application performance?
+2. Does geographic location significantly affect web application performance?
 
-3.Which protocol provides the best performance across different regions?
+3. Which protocol provides the best performance across different regions?
 
 ----
 
 ## Performance Metrics(dependant variable)
 The following metrics will be evaluated:
 
--Latency
+- Latency
 
--Throughput
+- Throughput
 
--Packet Loss
+- Packet Loss
 
--Page Load Time
+- Page Load Time
 
--Time To First Byte
+- Time To First Byte
 
 ----
 
 ## Geographic Regions
 
-The experiment will be conducted from serval geographic regions, including:
+The experiment will be conducted from several geographic regions, including:
 
--Ireland
+- Ireland
 
--UK
+- UK
 
--China
+- China
 
--Japan
+- Japan
 
--Canada
+- Canada
 
--USA
+- USA
 
 ----
 
@@ -60,19 +60,19 @@ The experiment will be conducted from serval geographic regions, including:
 
 The following tools will be used during this research:
 
--Google Chrome DevTools
+- Google Chrome DevTools
 
--Wireshark
+- Wireshark
 
--HTML
+- HTML
 
--CSS
+- CSS
 
--JavaScript
+- JavaScript
 
--Git & GitHub
+- Git & GitHub
 
--WebStorm
+- WebStorm
 
 -Visual Studio Code
 ----
@@ -83,19 +83,19 @@ The following tools will be used during this research:
 
 Performance-Analysis-of-Modern-Web-Protocols/
 
-README.md
+│── README.md
 
-script/
+│── script/
 
-results/
+│── results/
 
-paper/
+│── paper/
 
-figures/
+│── figures/
 
-experiment/
+│── experiment/
 
-datasets/
+│── datasets/
 
 ----
 
@@ -103,6 +103,6 @@ datasets/
 
 Yunlong Wang
 
-BSc (Hons) in Computer Science
+BSc (Hons) in Computing Science
 
 Griffith College Dublin
