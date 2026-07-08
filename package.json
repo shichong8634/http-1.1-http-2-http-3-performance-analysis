@@ -1,0 +1,20 @@
+{
+  "name": "network-performance-research",
+  "version": "1.0.0",
+  "description": "This project is an undergraduate research study that investigates the performance of modern web protocols (HTTP/1.1, HTTP/2, and HTTP/3) across different geographic regions(Ireland,UK,China,Japan,Canada and USA).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shichong8634/Network-Performance-Research.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shichong8634/Network-Performance-Research/issues"
+  },
+  "homepage": "https://github.com/shichong8634/Network-Performance-Research#readme"
+}
