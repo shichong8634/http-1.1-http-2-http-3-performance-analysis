@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/shichong8634/Network-Performance-Research/issues"
   },
-  "homepage": "https://github.com/shichong8634/Network-Performance-Research#readme"
+  "homepage": "https://github.com/shichong8634/Network-Performance-Research#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
