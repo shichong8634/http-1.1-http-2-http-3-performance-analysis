@@ -1,0 +1,111 @@
+.navbar{
+    width:100%;
+
+    height:60px;
+
+    font-size:25px;
+
+    background:rgba(0,0,0,0.6);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:50px;
+}
+
+.navbar a{
+
+    text-decoration:none;
+
+    color:#dcdcdc;
+
+    background:#2d2d2d;
+
+    padding:10px 25px;
+
+    border-radius:10px;
+
+    transition:0.3s;
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+.navbar a:hover{
+
+    background:#e60012;
+
+    color:white;
+
+    transform:translateY(-2px);
+
+}
+
+.title{
+    width:100%;
+    text-align:center;
+
+    color:white;
+
+    font-size:60px;
+
+    font-weight:bold;
+
+    text-shadow:
+            2px 2px 0px #000,
+            4px 4px 8px rgba(0,0,0,0.6);
+
+}
+
+body{
+    margin:0;
+
+    background-image:url("../images/background/background.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+    color:white;
+}
+
+.contact-form{
+
+    background:#1e1e1e;
+
+    color:#eeeeee;
+
+    font-family:"Poppins",sans-serif;
+
+    width:420px;
+
+    margin:60px auto;
+
+    padding:30px;
+
+    background:rgba(255,255,255,0.05);
+
+    border-radius:15px;
+
+    box-shadow:0 0 15px rgba(0,0,0,.3);
+
+}
+
+.text{
+    color: crimson;
+    font-size:20px;
+    font-weight:bold;
+
+    text-shadow:
+            1px 1px 0px lavender,
+            4px 4px 8px rgba(0,0,0,0.6);
+}
