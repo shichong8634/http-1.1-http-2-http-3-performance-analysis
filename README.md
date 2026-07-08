@@ -70,6 +70,8 @@ The following tools will be used during this research:
 
 - JavaScript
 
+- Node.js
+
 - Git & GitHub
 
 - WebStorm
