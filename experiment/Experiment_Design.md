@@ -61,7 +61,7 @@ The experiments will use one identical website containing:
 
 - About
 
-- Gallery
+- Gallery(The Gallery page intentionally contains multiple image resources to simulate a resource-intensive webpage and evaluate protocol performance under higher network load.)
 
 - Contact
 

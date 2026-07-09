@@ -26,15 +26,19 @@ To evaluate the performance of HTTP/1.1, HTTP/2, and HTTP/3 across different geo
 ## Performance Metrics(dependant variable)
 The following metrics will be evaluated:
 
-- Latency
+- Requests
 
-- Throughput
+- Transferred
 
-- Packet Loss
+- Time To First Byte(TTFB)
 
-- Page Load Time
+- Resources
 
-- Time To First Byte
+- Finish
+
+- DOMContentLoaded
+
+- Load Time
 
 ----
 
@@ -62,6 +66,8 @@ The following tools will be used during this research:
 
 - Google Chrome DevTools
 
+- Caddy
+
 - Wireshark
 
 - HTML
@@ -86,6 +92,8 @@ The following tools will be used during this research:
 Performance-Analysis-of-Modern-Web-Protocols/
 
 │── README.md
+
+│── website/
 
 │── script/
 
