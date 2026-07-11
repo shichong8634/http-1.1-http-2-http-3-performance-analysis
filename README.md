@@ -121,6 +121,7 @@ The results show:
 ![Load Time Stability](figures/figure3_load_time_standard_deviation.png)
 
 
+
 ![TTFB Stability](figures/figure4_ttfb_standard_deviation.png)
 
 
