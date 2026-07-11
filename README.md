@@ -122,7 +122,6 @@ The results show:
 
 ![TTFB Stability](figures/figure4_ttfb_standard_deviation.png)
 
-
 # Repository Structure
 Performance-Analysis-of-Modern-Web-Protocols/
 
