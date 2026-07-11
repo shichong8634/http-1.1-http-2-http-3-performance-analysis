@@ -4,7 +4,9 @@
   "description": "This project is an undergraduate research study that investigates the performance of modern web protocols (HTTP/1.1, HTTP/2, and HTTP/3) across different geographic regions(Ireland,UK,China,Japan,Canada and USA).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,8 @@
   "homepage": "https://github.com/shichong8634/Network-Performance-Research#readme",
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "wrangler": "^4.110.0"
   }
 }
