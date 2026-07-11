@@ -1,74 +1,38 @@
-# Performance Analysis of Modern Web Protocols (HTTP/1.1,HTTP/2,HTTP/3) Across Different Geographic Regions
+## Performance Analysis of Modern Web Protocols (HTTP/1.1, HTTP/2, and HTTP/3)
 
-## Overview
+# Overview
 
-This project is an undergraduate research study that investigates the performance of modern web protocols (HTTP/1.1, HTTP/2, and HTTP/3) across different geographic regions(Ireland,UK,China,Japan,Canada and USA).
+This project is an undergraduate research study that evaluates the performance differences between modern web protocols: HTTP/1.1, HTTP/2, and HTTP/3.
 
-The research focuses on evaluating how network protocols and geographic distance affect web application performance by conducting controlled experiments using the same web application under different testing environments.
+A web-based image gallery application was developed as the experimental platform. The study investigates how different HTTP protocols affect web application performance by conducting controlled experiments under the same website environment.
 
-----
+The research focuses on analysing webpage loading performance, response latency, and performance stability using experimental measurements.
 
-## Research Aim
+# Research Objectives
 
-To evaluate the performance of HTTP/1.1, HTTP/2, and HTTP/3 across different geographic regions and investigate how geographical location influences web application performance.
+The main objectives of this project are:
 
-----
+- To compare the performance of HTTP/1.1, HTTP/2, and HTTP/3.
 
-## Research questions
-1. What is the performance of HTTP/1.1, HTTP/2, and HTTP/3?
+- To analyse the impact of different HTTP protocols on web application loading performance.
 
-2. Does geographic location significantly affect web application performance?
+- To evaluate protocol stability through repeated experiments.
 
-3. Which protocol provides the best performance across different regions?
+- To investigate the practical advantages of modern web protocols.
 
-----
+# Research Questions
 
-## Performance Metrics(dependant variable)
-The following metrics will be evaluated:
+This study addresses the following research questions:
 
-- Requests
+- How do HTTP/1.1, HTTP/2, and HTTP/3 differ in web performance?
 
-- Transferred
+- Which protocol provides better webpage loading performance?
 
-- Time To First Byte(TTFB)
+- How stable are different HTTP protocols under repeated measurements?
 
-- Resources
+# Experimental Methodology
 
-- Finish
-
-- DOMContentLoaded
-
-- Load Time
-
-----
-
-## Geographic Regions
-
-The experiment will be conducted from several geographic regions, including:
-
-- Ireland
-
-- UK
-
-- China
-
-- Japan
-
-- Canada
-
-- USA
-
-----
-
-## Tools
-
-The following tools will be used during this research:
-
-- Google Chrome DevTools
-
-- Caddy
-
-- Wireshark
+A web gallery application was developed using:
 
 - HTML
 
@@ -76,40 +40,126 @@ The following tools will be used during this research:
 
 - JavaScript
 
+The backend environment was implemented using:
+
 - Node.js
+
+- Express.js
+
+The website was tested under three HTTP protocol environments:
+
+- HTTP/1.1
+
+- HTTP/2
+
+- HTTP/3
+
+Each protocol was tested 10 times under the same experimental conditions, resulting in a total of 30 measurements.
+
+# Performance Metrics
+
+The following metrics were collected and analysed:
+
+Metric	Description
+Requests	             ---Number of HTTP requests generated
+Transferred	             ---Amount of transferred data
+Resources	             ---Total resources loaded
+TTFB	                 ---Time To First Byte
+DOMContentLoaded	     ---Time required to parse HTML and build DOM
+Load Time	             ---Total webpage loading time
+Standard Deviation	     ---Performance stability measurement
+
+# Technologies and Tools
+
+- Development
+
+- Node.js
+
+- Express.js
+
+- HTML
+
+- CSS
+
+- JavaScript
+
+Testing and Analysis:
+
+- Google Chrome Developer Tools
+
+- Cloudflare (HTTP/3 and QUIC support)
+
+- Microsoft Excel (data analysis)
 
 - Git & GitHub
 
-- WebStorm
+# Experimental Results
 
--Visual Studio Code
-----
+The experiment compared HTTP/1.1, HTTP/2 and HTTP/3 using the same web application.
 
-## Repository Structure
+The results show:
 
-----
+- HTTP/3 achieved the lowest average page load time.
 
+- HTTP/2 improved performance compared with HTTP/1.1.
+
+- HTTP/3 demonstrated the highest loading stability.
+
+
+## Average Page Load Time
+
+![Load Time](figures/figure1_load_time.png)
+
+
+## Average TTFB
+
+![TTFB](figures/figure2_ttfb.png)
+
+
+## Performance Stability
+
+![Load Time Stability](figures/figure3_load_time_standard_deviation.png)
+
+![TTFB Stability](figures/figure4_ttfb_standard_deviation.png)
+
+
+# Repository Structure
 Performance-Analysis-of-Modern-Web-Protocols/
 
 │── README.md
 
 │── website/
-
-│── script/
-
-│── results/
-
-│── paper/
-
-│── figures/
-
-│── experiment/
+└── Web application source code
 
 │── datasets/
+├── raw_HTTP1.1 data
+├── raw_HTTP2 data
+└── raw_HTTP3 data
+└── integral data
 
-----
+│── experiment/
+└──Testing and Screenshots
 
-## Author
+│── results/
+└── Statistical analysis and summary
+
+│── figures/
+└── Experimental result figures
+
+│── paper/
+└── Research paper
+
+# Future Work
+
+Future improvements may include:
+
+Testing additional geographic locations.
+Evaluating performance under different network conditions.
+Analysing additional metrics such as throughput and packet loss.
+Expanding experiments using larger web applications.
+Author
+
+------------------------------------------
 
 Yunlong Wang
 

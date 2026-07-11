@@ -1,83 +1,104 @@
-# Experiment Design
+## Experiment Design
 
-## Objective
+# Objective
 
-To compare the performance of HTTP/1.1, HTTP/2 and HTTP/3 across different geographic regions.
+The objective of this experiment is to evaluate and compare the performance of HTTP/1.1, HTTP/2, and HTTP/3 using the same web application environment.
 
----
+The study focuses on analysing how different HTTP protocols affect webpage loading performance and response latency.
 
-## Independent Variables
+# Independent Variables
 
-- HTTP/1.1
-- HTTP/2
-- HTTP/3
+The independent variable in this experiment is the HTTP protocol version:
 
-- Ireland
-- UK
-- China
-- Japanese
-- Canada
-- USA
+HTTP/1.1
+HTTP/2
+HTTP/3
 
----
+# Dependent Variables
 
-## Dependent Variables
+The following performance metrics were collected and analysed:
 
-- Latency
+Page Load Time
+Time To First Byte (TTFB)
+DOMContentLoaded Time
+Number of Requests
+Transferred Data Size
+Resource Count
 
-- Throughput
+Additionally, standard deviation was calculated to evaluate performance stability.
 
-- Packet Loss
+# Controlled Variables
 
-- Page Load Time
+To ensure a fair comparison, the following factors were kept consistent:
 
-- Time To First Byte
+Same test website
+Same webpage resources
+Same image files
+Same CSS files
+Same JavaScript files
+Same browser (Google Chrome)
+Same testing procedure
+Same measurement method
 
----
+# Test Website
 
-## Controlled Variables
+The experiment used a self-developed web application as the testing platform.
 
-- Same website
+The website contains four main pages:
 
-- Same Internet condition
+Home
+About
+Gallery
+Contact
 
-- Same browser
+The Gallery page contains multiple image resources to simulate a modern webpage with multiple HTTP requests.
 
-- Same device
+# Experimental Environment
 
-- Same images
+The website was developed using:
 
-- Same CSS
+HTML
+CSS
+JavaScript
 
-- Same JavaScript
+The server environment was implemented using:
 
----
+Node.js
+Express.js
 
-## Test Website
+HTTP/3 support was enabled through Cloudflare using the QUIC protocol.
 
-The experiments will use one identical website containing:
+# Browser and Measurement Tools
 
-- Home
+The experiment used:
 
-- About
-
-- Gallery(The Gallery page intentionally contains multiple image resources to simulate a resource-intensive webpage and evaluate protocol performance under higher network load.)
-
-- Contact
-
----
-
-## Browser
+Browser
 
 Google Chrome
 
----
+Performance Measurement Tool
 
-## Network Analysis Tools
+Chrome Developer Tools Network Panel
 
-Chrome DevTools
+The following metrics were collected from the Network panel:
 
-Wireshark
+Requests
+Transferred
+TTFB
+DOMContentLoaded
+Load Time
+Experimental Procedure
 
----
+For each HTTP protocol:
 
+The same website was loaded in Google Chrome.
+Browser cache was disabled.
+A hard reload was performed.
+Performance metrics were recorded.
+The experiment was repeated 10 times.
+
+A total of 30 measurements were collected:
+
+HTTP/1.1: 10 tests
+HTTP/2: 10 tests
+HTTP/3: 10 tests
