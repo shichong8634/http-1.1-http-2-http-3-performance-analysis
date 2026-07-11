@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21310100.svg)](https://doi.org/10.5281/zenodo.21310100)
+
 ## Performance Analysis of Modern Web Protocols (HTTP/1.1, HTTP/2, and HTTP/3)
 
 # Overview
