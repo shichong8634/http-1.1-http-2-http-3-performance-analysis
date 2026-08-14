@@ -4,7 +4,7 @@
   "description": "This project is an undergraduate research study that investigates the performance of modern web protocols (HTTP/1.1, HTTP/2, and HTTP/3) across different geographic regions(Ireland,UK,China,Japan,Canada and USA).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node website/js/server-http1.js"
   },
   "repository": {
     "type": "git",

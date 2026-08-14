@@ -1,0 +1,134 @@
+<component name="libraryTable">
+  <library name="ee8-annotations">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.enterprise.cdi-api-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.enterprise.cdi-api-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.enterprise.lang-model-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.inject-api-2.0.1.MR.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.interceptor-api-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.interceptor-api-2.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.servlet-api-6.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.transaction-api-1.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.transaction-api-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-alpn-bouncycastle-server-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-alpn-client-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-alpn-conscrypt-server-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-alpn-java-client-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-alpn-java-server-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-alpn-server-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-client-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-demo-handler-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-deploy-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee8-annotations-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee8-apache-jsp-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee8-cdi-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee8-jndi-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee8-nested-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee8-openid-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee8-plus-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee8-proxy-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee8-quickstart-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee8-security-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee8-servlet-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee8-servlets-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee8-webapp-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee9-annotations-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee9-apache-jsp-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee9-cdi-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee9-fcgi-proxy-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee9-jaspi-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee9-jndi-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee9-nested-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee9-openid-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee9-plus-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee9-proxy-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee9-quickstart-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee9-security-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee9-servlet-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee9-servlets-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee9-webapp-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee10-annotations-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee10-apache-jsp-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee10-cdi-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee10-fcgi-proxy-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee10-jaspi-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee10-jndi-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee10-plus-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee10-proxy-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee10-quickstart-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee10-servlet-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee10-servlets-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee10-webapp-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-ee-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-gcloud-session-manager-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-hazelcast-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-http-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-infinispan-common-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-infinispan-embedded-query-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-infinispan-remote-query-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-io-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-jakarta-servlet-api-5.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-jmx-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-jndi-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-keystore-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-memcached-sessions-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-nosql-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-openid-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-plus-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-proxy-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-rewrite-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-security-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-server-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-servlet-api-4.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-session-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-unixdomain-server-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-util-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-util-ajax-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-websocket-core-client-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-websocket-core-common-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-websocket-core-server-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-websocket-jetty-api-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-websocket-jetty-client-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-websocket-jetty-common-12.0.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-xml-12.0.37.jar!/" />
+      <root url="file://$PROJECT_DIR$/lib/ee8-annotations" />
+      <root url="file://$PROJECT_DIR$/lib/ee8-apache-jsp" />
+      <root url="file://$PROJECT_DIR$/lib/ee8-glassfish-jstl" />
+      <root url="file://$PROJECT_DIR$/lib/ee8-websocket" />
+      <root url="file://$PROJECT_DIR$/lib/ee9-annotations" />
+      <root url="file://$PROJECT_DIR$/lib/ee9-apache-jsp" />
+      <root url="file://$PROJECT_DIR$/lib/ee9-glassfish-jstl" />
+      <root url="file://$PROJECT_DIR$/lib/ee9-jaspi" />
+      <root url="file://$PROJECT_DIR$/lib/ee9-websocket" />
+      <root url="file://$PROJECT_DIR$/lib/ee10-annotations" />
+      <root url="file://$PROJECT_DIR$/lib/ee10-apache-jsp" />
+      <root url="file://$PROJECT_DIR$/lib/ee10-glassfish-jstl" />
+      <root url="file://$PROJECT_DIR$/lib/ee10-jaspi" />
+      <root url="file://$PROJECT_DIR$/lib/ee10-websocket" />
+      <root url="file://$PROJECT_DIR$/lib/fcgi" />
+      <root url="file://$PROJECT_DIR$/lib/http2" />
+      <root url="file://$PROJECT_DIR$/lib/http3" />
+      <root url="file://$PROJECT_DIR$/lib/logging" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/ee10-annotations" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/ee10-apache-jsp" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/ee10-glassfish-jstl" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/ee10-jaspi" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/ee10-websocket" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/ee8-annotations" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/ee8-apache-jsp" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/ee8-glassfish-jstl" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/ee8-websocket" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/ee9-annotations" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/ee9-apache-jsp" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/ee9-glassfish-jstl" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/ee9-jaspi" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/ee9-websocket" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/fcgi" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/http2" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/http3" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/logging" recursive="false" />
+  </library>
+</component>
