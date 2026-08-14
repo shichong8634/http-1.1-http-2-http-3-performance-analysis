@@ -100,17 +100,17 @@ The main results include:
 
 ## Average Page Load Time
 
-![Response Time](figures/figure1_Response_Time.png)
+![Response Time](figures/V2.0/figure1_Response_Time.png)
 
 
 ## Average TTFB
 
-![TTFB](figures/figure2_TTFB_Mean.png)
+![TTFB](figures/V2.0/figure2_TTFB_Mean.png)
 
 
 ## Success Rate
 
-![Success Rate](figures/figure3_Success_Rate.png)
+![Success Rate](figures/V2.0/figure3_Success_Rate.png)
 
 
 # Repository Structure
