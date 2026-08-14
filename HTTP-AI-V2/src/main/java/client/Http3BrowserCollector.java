@@ -168,7 +168,6 @@ public class Http3BrowserCollector {
                 "{\"cacheDisabled\":true}"
         );
 
-        // 给 CDP 一点时间处理 enable
         Thread.sleep(500);
 
         // --------------------------------------------------------
@@ -464,7 +463,7 @@ public class Http3BrowserCollector {
                     - start > 15000) {
 
                 throw new RuntimeException(
-                        "Edge CDP 启动超时"
+                        "Edge CDP Startup timeout"
                 );
             }
 

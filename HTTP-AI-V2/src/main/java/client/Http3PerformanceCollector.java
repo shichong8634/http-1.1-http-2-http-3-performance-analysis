@@ -60,7 +60,7 @@ public class Http3PerformanceCollector {
 
         if (wsUrl == null) {
             throw new RuntimeException(
-                    "没有找到 Chrome CDP 页面。"
+                    "Chrome CDP page not found."
             );
         }
 
@@ -431,9 +431,6 @@ public class Http3PerformanceCollector {
                 }
             }
 
-            /*
-             * 找同一个 requestId 的 loadingFinished
-             */
             if (message.contains(
                     "\"method\":\"Network.loadingFinished\""
             )) {
