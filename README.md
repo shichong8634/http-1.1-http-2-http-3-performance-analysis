@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21310100.svg)](https://doi.org/10.5281/zenodo.21310100)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21937087.svg)](https://doi.org/10.5281/zenodo.21937087)
 
 ## Performance Evaluation of HTTP/1.1, HTTP/2 and HTTP/3: A Comparative Experimental Study
 
