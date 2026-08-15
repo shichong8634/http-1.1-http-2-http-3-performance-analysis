@@ -1,0 +1,58 @@
+AI-Assisted Analysis - Version 3.0
+
+This file documents the small AI-assisted experiment added to Version 3.0 of the HTTP performance analysis project.
+
+The main research topic of this project remains the performance evaluation of HTTP/1.1, HTTP/2, and HTTP/3. The AI experiment is an additional analysis component and is not the main focus of the study.
+
+Two AI models were tested:
+- ChatGPT
+- DeepSeek
+
+The purpose of the experiment was to examine whether AI models could analyse experimental network performance data and correctly identify the HTTP protocol expected to have the lowest response time.
+
+Two rounds of testing were conducted.
+
+Round 1:
+The AI models were provided with basic network performance metrics:
+- RTT
+- Jitter
+- Packet Loss
+- Data Size
+- Throughput
+
+Response Time was not provided to the AI models because it was used as the actual experimental result for evaluating prediction accuracy.
+
+Round 2:
+Additional RTT information was provided:
+- Average RTT
+- Minimum RTT
+- Maximum RTT
+- Jitter
+- Packet Loss
+- Data Size
+- Throughput
+
+Response Time was still not provided to the AI models.
+
+The same samples and prompts were used for both AI models within each round.
+
+The prediction accuracy was calculated by comparing each AI prediction with the actual protocol that achieved the lowest measured response time in the corresponding sample.
+
+Results:
+
+Round 1:
+- ChatGPT: 70%
+- DeepSeek: 40%
+
+Round 2:
+- ChatGPT: 60%
+- DeepSeek: 60%
+
+The results show that the AI models did not always match the actual experimental results. The models also showed different prediction behaviour when additional network metrics were provided.
+
+This AI-assisted experiment is intended as a small supplementary feature of Version 3.0. The main contribution of the project remains the experimental performance comparison of HTTP/1.1, HTTP/2, and HTTP/3.
+
+Files:
+- AI_Round1_Input_Data.xlsx: Data provided to the AI models in Round 1.
+- AI_Round2_Input_Data.xlsx: Data provided to the AI models in Round 2.
+- AI_Assisted_Analysis_v3.0.xlsx: Summary of the AI experiment and prediction results.
