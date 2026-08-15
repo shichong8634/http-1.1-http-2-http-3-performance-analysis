@@ -1,130 +1,116 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21310100.svg)](https://doi.org/10.5281/zenodo.21310100)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21937087.svg)](https://doi.org/10.5281/zenodo.21937087)
 
-## Performance Analysis of Modern Web Protocols (HTTP/1.1, HTTP/2, and HTTP/3)
+## Performance Evaluation of HTTP/1.1, HTTP/2 and HTTP/3: A Comparative Experimental Study
 
 # Overview
 
-This project is an undergraduate research study that evaluates the performance differences between modern web protocols: HTTP/1.1, HTTP/2, and HTTP/3.
+This project is an undergraduate research study that evaluates the performance differences between HTTP/1.1, HTTP/2, and HTTP/3.
 
-A web-based image gallery application was developed as the experimental platform. The study investigates how different HTTP protocols affect web application performance by conducting controlled experiments under the same website environment.
+Version 2.0 extends the previous experiment by adding a larger experimental dataset and a wider range of performance metrics. The experiment focuses on a single HTML document request under the same testing environment.
 
-The research focuses on analysing webpage loading performance, response latency, and performance stability using experimental measurements.
+A total of 3000 measurements were collected, including 1000 tests for each HTTP protocol.
 
 # Research Objectives
 
 The main objectives of this project are:
 
 - To compare the performance of HTTP/1.1, HTTP/2, and HTTP/3.
-
-- To analyse the impact of different HTTP protocols on web application loading performance.
-
-- To evaluate protocol stability through repeated experiments.
-
-- To investigate the practical advantages of modern web protocols.
+- To analyse response time and network performance under the same testing conditions.
+- To evaluate protocol performance through repeated experiments.
+- To collect a larger dataset for statistical analysis.
 
 # Research Questions
 
 This study addresses the following research questions:
 
-- How do HTTP/1.1, HTTP/2, and HTTP/3 differ in web performance?
-
-- Which protocol provides better webpage loading performance?
-
-- How stable are different HTTP protocols under repeated measurements?
+- How do HTTP/1.1, HTTP/2, and HTTP/3 differ in performance?
+- Which protocol provides lower response time under the tested conditions?
+- How do network metrics differ between the three protocols?
+- How stable are the protocols during repeated measurements?
 
 # Experimental Methodology
 
-A web gallery application was developed using:
+A web-based application was developed using:
 
 - HTML
-
 - CSS
-
 - JavaScript
 
 The backend environment was implemented using:
 
 - Node.js
-
 - Express.js
 
 The website was tested under three HTTP protocol environments:
 
 - HTTP/1.1
-
 - HTTP/2
-
 - HTTP/3
 
-Each protocol was tested 10 times under the same experimental conditions, resulting in a total of 30 measurements.
+For Version 2.0, the experiment focuses on a single `index.html` document request.
+
+Each protocol was tested 1000 times under the same experimental conditions, resulting in a total of 3000 measurements.
 
 # Performance Metrics
 
 The following metrics were collected and analysed:
 
-Metric	Description
-Requests	             ---Number of HTTP requests generated
-Transferred	             ---Amount of transferred data
-Resources	             ---Total resources loaded
-TTFB	                 ---Time To First Byte
-DOMContentLoaded	     ---Time required to parse HTML and build DOM
-Load Time	             ---Total webpage loading time
-Standard Deviation	     ---Performance stability measurement
+| Metric | Description |
+|---|---|
+| Response Time | Time required to complete the HTTP request |
+| TTFB | Time To First Byte |
+| RTT | Round Trip Time |
+| Jitter | Variation in network delay |
+| Packet Loss | Percentage of lost packets |
+| Data Size | Amount of transferred data |
+| Throughput | Amount of data transferred over time |
+| Success Rate | Percentage of successful requests |
+| Standard Deviation | Measurement of performance variation |
 
 # Technologies and Tools
 
-- Development
+### Development
 
 - Node.js
-
 - Express.js
-
 - HTML
-
 - CSS
-
 - JavaScript
 
-Testing and Analysis:
+### Testing and Analysis
 
-- Google Chrome Developer Tools
-
-- Cloudflare (HTTP/3 and QUIC support)
-
-- Microsoft Excel (data analysis)
-
+- Microsoft Edge
+- Edge DevTools Protocol (CDP)
+- QUIC / HTTP/3
+- Microsoft Excel
 - Git & GitHub
-
+  
 # Experimental Results
 
-The experiment compared HTTP/1.1, HTTP/2 and HTTP/3 using the same web application.
+Version 2.0 compares HTTP/1.1, HTTP/2 and HTTP/3 using 1000 measurements for each protocol.
 
-The results show:
+The main results include:
 
-- HTTP/3 achieved the lowest average page load time.
-
-- HTTP/2 improved performance compared with HTTP/1.1.
-
-- HTTP/3 demonstrated the highest loading stability.
+- HTTP/3 achieved the lowest average response time.
+- HTTP/3 achieved the lowest average TTFB.
+- HTTP/1.1 and HTTP/2 achieved a 100% success rate.
+- HTTP/3 achieved a 98.3% success rate.
+- The collected data was analysed using mean, median and standard deviation.
 
 
 ## Average Page Load Time
 
-![Load Time](figures/figure1_load_time.png)
+![Response Time](figures/V2.0/figure1_Response_Time.png)
 
 
 ## Average TTFB
 
-![TTFB](figures/figure2_ttfb.png)
+![TTFB](figures/V2.0/figure2_TTFB_Mean.png)
 
 
-## Performance Stability
+## Success Rate
 
-![Load Time Stability](figures/figure3_load_time_standard_deviation.png)
-
-
-
-![TTFB Stability](figures/figure4_ttfb_standard_deviation.png)
+![Success Rate](figures/V2.0/figure3_Success_Rate.png)
 
 
 # Repository Structure
@@ -157,11 +143,8 @@ Performance-Analysis-of-Modern-Web-Protocols/
 
 Future improvements may include:
 
-Testing additional geographic locations.
-Evaluating performance under different network conditions.
-Analysing additional metrics such as throughput and packet loss.
-Expanding experiments using larger web applications.
-Author
+- Using the collected data for HTTP performance prediction.
+- Investigating machine-learning-based protocol selection.
 
 ------------------------------------------
 
