@@ -1,14 +1,10 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21937087.svg)](https://doi.org/10.5281/zenodo.21937087)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21953615.svg)](https://doi.org/10.5281/zenodo.21953615)
 
-## Performance Evaluation of HTTP/1.1, HTTP/2 and HTTP/3: A Comparative Experimental Study
+## Performance Evaluation of HTTP/1.1, HTTP/2 and HTTP/3 with AI-Assisted Analysis
 
 # Overview
 
-This project is an undergraduate research study that evaluates the performance differences between HTTP/1.1, HTTP/2, and HTTP/3.
-
-Version 2.0 extends the previous experiment by adding a larger experimental dataset and a wider range of performance metrics. The experiment focuses on a single HTML document request under the same testing environment.
-
-A total of 3000 measurements were collected, including 1000 tests for each HTTP protocol.
+This project is an undergraduate research study that evaluates the performance of HTTP/1.1, HTTP/2, and HTTP/3 under the same experimental conditions. The experiment focuses on a single HTML document request and uses repeated measurements to compare the performance of the three protocols.
 
 # Research Objectives
 
@@ -18,6 +14,7 @@ The main objectives of this project are:
 - To analyse response time and network performance under the same testing conditions.
 - To evaluate protocol performance through repeated experiments.
 - To collect a larger dataset for statistical analysis.
+- To explore the use of AI-assisted analysis for experimental network performance data.
 
 # Research Questions
 
@@ -47,9 +44,9 @@ The website was tested under three HTTP protocol environments:
 - HTTP/2
 - HTTP/3
 
-For Version 2.0, the experiment focuses on a single `index.html` document request.
+The experiment focuses on a single `index.html` document request.
 
-Each protocol was tested 1000 times under the same experimental conditions, resulting in a total of 3000 measurements.
+Each protocol was tested 1000 times using the same target HTML document, resulting in a total of 3000 measurements. The collected data was organised and analysed using Microsoft Excel.
 
 # Performance Metrics
 
@@ -84,10 +81,12 @@ The following metrics were collected and analysed:
 - QUIC / HTTP/3
 - Microsoft Excel
 - Git & GitHub
+- ChatGPT
+- DeepSeek
   
 # Experimental Results
 
-Version 2.0 compares HTTP/1.1, HTTP/2 and HTTP/3 using 1000 measurements for each protocol.
+The experiment compares HTTP/1.1, HTTP/2 and HTTP/3 using 1000 measurements for each protocol.
 
 The main results include:
 
@@ -112,39 +111,52 @@ The main results include:
 
 ![Success Rate](figures/V2.0/figure3_Success_Rate.png)
 
+# AI-Assisted Analysis
+
+A supplementary AI-assisted analysis was conducted using ChatGPT and DeepSeek.
+
+Two rounds of testing were performed using 10 samples in each round. The AI models were asked to identify the HTTP protocol with the lowest measured response time based on the provided network performance metrics.
+
+| Model | Round 1 | Round 2 |
+|---|---:|---:|
+| ChatGPT | 70% | 60% |
+| DeepSeek | 40% | 60% |
+
+The results show that the AI predictions did not always match the measured experimental results. The AI analysis is included as a supplementary part of the study rather than a replacement for direct network measurements.
+
 
 # Repository Structure
-Performance-Analysis-of-Modern-Web-Protocols/
+
+HTTP-Protocol-Performance-Evaluation/
 
 │── README.md
+│── package.json
+│── package-lock.json
 
 │── website/
 └── Web application source code
 
 │── datasets/
-├── raw_HTTP1.1 data
-├── raw_HTTP2 data
-└── raw_HTTP3 data
-└── integral data
+└── Experimental datasets and AI analysis data
 
 │── experiment/
-└──Testing and Screenshots
-
-│── results/
-└── Statistical analysis and summary
+└── Experimental scripts and testing files
 
 │── figures/
 └── Experimental result figures
 
+│── results/
+└── Statistical analysis, summary and AI prediction results
+
 │── paper/
-└── Research paper
+└── Research paper and related documents
 
-# Future Work
+│── HTTP-AI-V2/
+└── AI-assisted analysis files
 
-Future improvements may include:
+│── node_modules/
+└── Project dependencies
 
-- Using the collected data for HTTP performance prediction.
-- Investigating machine-learning-based protocol selection.
 
 ------------------------------------------
 
