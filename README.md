@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21953615.svg)](https://doi.org/10.5281/zenodo.21953615)
 
-## Performance Evaluation of HTTP/1.1, HTTP/2 and HTTP/3 with AI-Assisted Analysis
+## Performance Evaluation of HTTP/1.1, HTTP/2 and HTTP/3: An Experimental Study with AI-Assisted Analysis
 
 # Overview
 
